@@ -4,7 +4,7 @@ title: Home
 ---
 
 # About
-- For [Project]((https://github.com/sc-adams/sc-adams.github.io/blob/main/sadams/About/about.md)) I recommend the following: [plan](https://github.com/sc-adams/sc-adams.github.io/#software-engineering-and-design).
+- For [Project]((https://sc-adams.github.io/blob/main/sadams/About/about.md)) I recommend the following: [plan](https://sc-adams.github.io/#software-engineering-and-design).
 
   
 # Software Engineering and Design
