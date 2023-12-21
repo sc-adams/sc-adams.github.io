@@ -1,11 +1,13 @@
-
-title: Shera Adams Portfolio
-email: shera.adams@snhu.edu
-logo: /assets/img/profile.jpg
-description: An Overview of My Work at Southern New Hampshire University
-theme: jekyll-theme-architect
-description: Southern New Hampshire University<br>
+---
+title: "Shera Adams Portfolio"
+email: "shera.adams@snhu.edu"
+logo: "/assets/img/profile.jpg"
+description: "An Overview of My Work at Southern New Hampshire University"
+theme: "jekyll-theme-architect"
+description: |
+  Southern New Hampshire University<br>
   Bachelor of Science Computer Science<br>
   Class of 2024<br>  
-  Email - <a href="mailto:shera.adams@snhu.edu">shera.adams@snhu.edu</a><br>
-  LinkedIn - <a href="https://linkedin.com/in/shera-adams">Shera Adams</a><br>
+  Email - <a href='mailto:shera.adams@snhu.edu'>shera.adams@snhu.edu</a><br>
+  LinkedIn - <a href='https://linkedin.com/in/shera-adams'>Shera Adams</a><br>
+---
