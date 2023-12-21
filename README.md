@@ -16,20 +16,3 @@
 | This is a [data analysis tableau project](https://public.tableau.com/app/profile/sheraadamsmedia/viz/SuicideDataAnalysis_16577546147860/Dashboard1) comparing suicide rates over time, by gender, and country of residence. | ![suicicde data analysis](https://github.com/sheraadams/sheraadams/assets/110789514/8de310e4-3d2d-4b0e-807a-e3480976145d) |
 
 Check out [my references here](https://github.com/sheraadams/sheraadams/edit/main/references.md).
-## Skill Badges
-<!-- skills -->
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,lua,cpp,cs,html,js,py,eclipse,ae,idea,spring" />
-    <img src="https://skillicons.dev/icons?i=git,ai,ps,vscode,visualstudio,matlab,mysql,linux,r" />
-    <img src="https://skillicons.dev/icons?i=pr,css,mongodb,maven,androidstudio,bash,powershell" />
-  </a>
-</p>
-
-<!-- contributors -->
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square" />
-    <img src="https://komarev.com/ghpvc/?username=sheraadams" />
-  </a>
-</p>
