@@ -19,7 +19,7 @@ The Model-View-Controller (MVC) software design pattern is employed in this mult
 
 <div align="center">
   <p><strong>CS340 Client Server Development Dashboard</strong></p>
-  <img src="![top](https://sc-adams.github.io/assets/img/top.jpeg" width="800" alt="CS340 Client Server Developmemt Dashboard: d1">
+  <img src="https://sc-adams.github.io/assets/img/top.jpeg" width="800" alt="CS340 Client Server Developmemt Dashboard: d1">
 </div>
 
 ## Functional Requirements: 
