@@ -1,9 +1,5 @@
----
-layout: default
-title: Home
----
+# SNHU CS499 Computer Science Capstone
 
-# Capstone Presentation
 - For my [Software Engineering and Design](https://sheraadams.github.io/#software-engineering-and-design) enhancement, I added a pie chart and a bar chart that describe age upon outcome by category and outcome type of the Grazioso Salvare client database. Here are my [enhancements](https://sheraadams.github.io/#software-engineering-and-design-enhancments).
 
 - For my [Data Structures and Algorithms](https://sheraadams.github.io/#data-structures-and-algorithms) enhancement, I increased the efficiency of the CS250 Java slideshow application by using an arraylist in place of conditional branching to control the slideshow view. Here are my [enhancemens](https://sheraadams.github.io/#data-structures-enhancements).
