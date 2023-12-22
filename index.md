@@ -379,7 +379,7 @@ I reproduced this project locally with a step-by-step guide detailing the proces
 
 While developing on Mac, I noticed several key differences compared to Windows. The Unix-like terminal on Mac simplified the development process and reduced the need for extensive software installations. When developing on Windows, it's necessary to install WSL (Windows Subsystem for Linux) and Bash, before proceeding with MongoDB installation. I found Installing MongoDB to be more straightforward with the Homebrew package manager and the built-in bash terminal.
 
-Check out my [references](https://sheraadams.github.io/references.md) here.
+Check out my [references](https://sc-adams.github.io/references.md) here.
 
 <div style="text-align: center;">
   <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sheraadams" target="_blank">Shera Adams</a>.</strong></p>
