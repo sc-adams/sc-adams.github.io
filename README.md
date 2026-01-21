@@ -1,3 +1,5 @@
+# Check out [My Portfolio Site](https://github.com/sc-adams/sc-adams.github.io)
+
 ## Table of Contents 
 <p align="center">
   <h2 style="font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
