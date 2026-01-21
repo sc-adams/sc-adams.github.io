@@ -1,505 +1,208 @@
-# SNHU CS499 Computer Science Capstone
+## Table of Contents 
+<p align="center">
+  <h2 style="font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+        <a href="https://sheraadams.github.io">ePortfolio</a><br>
+      <a href="https://sheraadams.github.io/#professional-assessment">Professional Assessment</a><br>
+      <a href="https://sheraadams.github.io/#code-review">Code Review</a><br>
+      <a href="https://sheraadams.github.io/#software-engineering-and-design">Software Engineering and Design</a><br>
+      <a href="https://sheraadams.github.io/#data-structures-and-algorithms">Data Structures and Algorithms</a><br>
+      <a href="https://sheraadams.github.io/#databases">Databases</a><br>
+  </h2>
+</p>
 
-- For my [Software Engineering and Design](https://sheraadams.github.io/#software-engineering-and-design) enhancement, I added a pie chart and a bar chart that describe age upon outcome by category and outcome type of the Grazioso Salvare client database. Here are my [enhancements](https://sheraadams.github.io/#software-engineering-and-design-enhancments).
+## Professional Assessment
+Welcome to my CS499 Capstone ePortfolio. On this page, I will showcase some of the work that I have completed as4 a computer science student at Southern New Hampshire University. Completing my coursework and developing this ePortfolio has helped to showcase my strengths and shape my professional goals along the way and I am proud of how much I have learned in this time. My degree has helped me to develop skills in collaborating in a team environment, communicating with stakeholders, in data structures and algorithms, software engineering and database, and software security, satisfying the five course outcomes for this capstone course through my work in courses like Data Structures and Algorithms, Operating Platforms, Software Security, System Analysis and Design, and Mobile Programming and Architecture, among other courses. In this portfolio, I will demonstrate my proficiency in the five computer science program outcomes using my experience in the program overall and then I will provide three projects that cover these outcomes in depth. 
 
-- For my [Data Structures and Algorithms](https://sheraadams.github.io/#data-structures-and-algorithms) enhancement, I increased the efficiency of the CS250 Java slideshow application by using an arraylist in place of conditional branching to control the slideshow view. Here are my [enhancemens](https://sheraadams.github.io/#data-structures-enhancements).
+In my studies at SNHU, I gained proficiency in the [five computer science program outcomes](https://sheraadams.github.io/outcomes) as follows:
 
-- For my [Databases](https://sheraadams.github.io/#databases) enhancement, plan to set up the database and dashboard locally (on both Mac and Windows), outlining this process to improve future workflows. Additionally I plan to implement a field mask to hide confidential fields such as client name from the dashboard data table. Here are my [enhancements](https://sheraadams.github.io/#database-enhancements).
-  
-# Software Engineering and Design
+**Course Outcome 1**	Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.
 
-## About the Project
-The client dashboard is designed to provide functionality and a user-friendly interface for interacting with a database using creation, updating, reading, reading, and deletion database management functions that utilize the PyMongo software. The dashboard is programmed using [MongoDB](https://www.mongodb.com/products/platform/cloud) and [Python](https://python.org/), and it uses [Jupyter Notebook](https://jupyter.org/) and [Dash](https://plotly.com/) to create interactive graphs.
+I have strengthened my skills in collaborating in a team environment throughout my studies at SNHU. In CS 255, System Analysis and Design, I shared a variety of UML diagrams in my discussions when communicating the functional requirements of a driver’s education and driving lesson booking site project with my classmates. To model the system most accurately in my documentation, I utilized a combination of process models, UML sequence diagrams, activity diagrams, use case diagrams, and object model diagrams.  Utilizing models suited for both technical and non-technical audiences, I provided a comprehensive view of how the structural and behavioral aspects should work from multiple perspectives to give the most holistic picture possible for the system. For each diagram, I created accessible PDFs in LucidChart to ensure greater audience inclusion. 
 
-The Model-View-Controller (MVC) software design pattern is employed in this multi-tier application. The architecture is composed of a MongoDB NoSQL database, the Python code that communicates with the database, and an interactive visualization dashboard. For seamless communication and data exchange, the application utilizes the RESTful protocol which extends the capabilities of the HTTP protocol and provides the application programming interface (API) for our program. This design provides a modular, scalable, adaptable, and easy-to-maintain structure. Here is a video preview of the [dashboard](https://www.youtube.com/watch?v=ZxHuFK2Ne_o). 
+- **My work in Systems Analysis and Design demonstrated my proficiency in supporting collaborative environments that enable diverse audiences to support decision making with skills in agile methodologies, documentation, and systems modeling.** You can see some of the [systems models that I developed here](https://github.com/sheraadams/Systems-Development-Models/tree/main) and in these [UML use case and activity diagrams](https://sheraadams.github.io/CS255). 
 
-<div align="center">
-  <p><strong>CS340 Client Server Development Dashboard</strong></p>
-  <img src="https://github.com/sheraadams/CS340/assets/110789514/c4454846-462e-4580-8fd5-57159f70c1d0" width="800" alt="CS340 Client Server Developmemt Dashboard: d1">
-</div>
+**Course Outcome 2**	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
 
-## Tools I used in this project
-- [Python](https://www.python.org): programming language is used to communicate with the database, and it is the programming language of choice for database and data analysis tasks. 
-  
-- [PyMongo Docs](https://www.mongodb.com/products/platform/cloud): driver is used to communicate with the database using the Python programming language and the MongoDB database management software. 
+Throughout my studies at SNHU, I have gained skills in communicating with stakeholders. CS360, Mobile Architecture and Programming, provided practical opportunities for me to work in an agile-like environment on a Weight Tracking Android mobile app. I started the development process with a market research report in which I compared similar successful apps, exploring their strengths and weaknesses, and understanding the needs of the users. I followed my research with an app proposal that detailed the necessary classes for the app, the UI elements I planned to use, the features, and the functionality to be included along with a high-fidelity wireframe of my proposed app. After gaining feedback on my design, I submitted a UI-only XML deliverable that contained the full layout of the app.  After gaining approval on my user interface, I submitted my final product including the full Android Studio project. I submitted an App Launch plan and along with my app to outline the features, functionality, icon,app store description, images, and my recommended monetization plan based on research. Following agile development best practices, I delivered an app that accurately matched the client’s description, and, as a result, [the Java-based Android app](https://sheraadams.github.io/CS360) was well received. 
 
-- [Linux](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/): is used to execute commands and scripts and to facilitate communication with the database and grant access and user permissions. 
+- **Using skills in mobile app development, Java, XML, UI design, communication, and agile development practices, I developed and delivered professional-quality communications that were appropriately adapted to specific audiences.**
 
-- [Jupyter Notebooks](https://jupyter.org/): allows us to create interactive web-based notebooks with the help of the dash framework.  
-  
-- [Dash](https://plotly.com/): framework is used to create interactive dashboards and user-friendly interfaces for database interaction.
+**Course Outcome 3**	Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms).
 
-- [MongoDB](https://www.mongodb.com/products/platform/cloud): is used for flexibility, scalability, and compatibility with Python.
+Completing CS300, Data Structures and Algorithms, was a significant milestone for me as I learned about the importance of choosing efficient data structures to improve performance, readability, and scalability in software. In CS300, we were asked to create a C++ course tracker application that loads courses from a text file, orders them alphabetically, prints a current course list, and allows for insertion and deletion into the course list. If this project were to scale enough, simple insertions and deletions could eventually exhaust the system's resources. To address the need for efficiency as the project scales, an appropriate data structure was required. To aid in the selection of an appropriate algorithm, I performed an algorithm analysis analyzing the line-by-line cost of the insertion function for Hash Table, Vector, and Binary Search Tree structures. While the Binary Search Tree was comparable but not the technically most efficient choice of the three structures compared, other factors also influenced my decision. I opted against the vector as the vector is more expensive in terms of memory allocation and they require sorting after each modification.  Similarly, I opted against the hash table as they can degrade as data grows and undergoes many collisions. 
 
-## Functional Requirements: 
+In the end, I chose the Binary Search Tree for the application as it is extremely efficient and yields fast search results. Binary Search Trees are also great when growth and modification in the future are expected. Because of the specific functional requirements of the client, the Binary Search Tree was an appropriate choice, however, it requires storage for the tree itself and maintenance and it may not be the most practical solution for all applications. The Binary Search Tree example provides an example of some of the trade-offs involved in computer science that I learned to consider. Throughout my studies, I managed the inherent trade-offs associated with various design choices, considering at each new project if it would be worth the sacrifice of simplicity for a technically more efficient structure.  When considering an appropriate algorithm, there many factors to consider in this scenario including the project’s intended use, compatibility considerations, scale, cost, and resources. 
 
-- The application should provide an interface for clients to interact with the Grazioso database.
-- The application should allow lookup by common profiles.
-- The application should have:
-  - Interactive options to filter the data
-  - A data table that dynamically responds to filter options
-  - A geolocation chart that displays the animal’s coordinates
-  - An additional chart that dynamically responds to the filter options.
+- **In the completion of the Binary Search Tree course tracker application for CS300, I demonstrated skills in algorithm analysis, C++, documentation, and communication.** You can find a sample of the pseudocode for this C++ binary search tree [course tracker application here](https://sheraadams.github.io/CS300).
 
-## Nonfunctional Requirements
+**Course Outcome 4**	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database).
 
-- The application should be user-friendly and intuitive.
-- The application should have:
-  - Grazioso Salvare logo somewhere on the page.
-  - Developer identifiers somewhere on the page.
+Throughout my studies, I strived to use well-founded and innovative techniques, skills, and tools to implement computer solutions that deliver value to the end user. In CS 230, Operating Platforms, we were tasked with creating a software design document to inform the development of a web-based game, Draw It or Lose It, so that it could be deployed on various operating platforms including iOS and Mac OS. To best accomplish this, I outlined the design constraints, business constraints, the domain model, an estimated timeline to production, and an evaluation specifically tailored to meet the needs of the client. In this document, I created a pros and cons chart to compare Mac, Windows, mobile devices (in general), and Linux in terms of memory management, server development, tools available, and language-specifications to help the choose the appropriate platform for development as requested by the client. 
 
-## Python read function
+In the project, I provided practical knowledge regarding best tools for each platform, operating costs associated with each platform, server software options available, and my recommendations given each of those factors. Based on the UML class diagram discussed with the client, I developed software that met the client’s need to manage players in-game data. I utilized the Singleton design pattern to address the need for a singular game instance for each device. When my work was complete, I performed dynamic testing in Eclipse to confirm that the software met the functional requirements of the client. 
 
-The Python file gives CRUD helper functions for working with our database. The **read()** function takes in a query as a parameter and will try to use the built-in pyMongo function, find(). If the query is found, the function will return the query, if it is not found the function will print an error and return an empty list.
+- **Using skills in documentation, Java, computer science, software testing, Mac OS, Linux, Windows, and mobile devices, I successfully met the need of the client and demonstrated an ability to use well-founded techniques and tools to implement computer solutions that accomplish industry-specific goals.** You can see an example of my work in the following UML class diagram and in the [platform comparison table here](https://sheraadams.github.io/CS230).
 
-```python
-# Create method to implement the R in CRUD.
-    def read(self, query):
-        #try to read the data, if success return query
-        try:
-            results = list(self.collection.find(query))
-            return results
-        # error reading the data, print "error" and return empty list
-        except Exception as e:
-            print(f"Error reading documents: {e}")
-            return []
+**Course Outcome 5**	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
-```
+In my studies, I have strengthened my security mindset that anticipates software exploits and designs to mitigate them. CS305, Software Security, helped me to anticipate a wide range of vulnerabilities that emerge when we work with code. According to Detlefsen & Maniaco, following a deny-by-default policy can ensure that fewer vulnerabilities and opportunities for potential exploits will be missed (2015). This is also referred to as the principle of least privilege, in which users should be given the minimum levels of access and permissions necessary to perform essential tasks. I agree with this approach and regularly practice a deny-by-default practice to software development that can avoid many serious repercussions. 
 
-## The Jupyter Notebook file
+In CS305, I learned that using the National Vulnerability Database (NVD) as a resource to guide risk assessment when including third party libraries, ensuring secure HTTPS protocols, and implementing robust security configurations (for example: Spring Security) are some ways that we can ensure the security of our applications. To meet the needs of a financial industry consulting firm seeking to enhance the security of its web application, I implemented a robust hashing algorithm to protect sensitive client communications, I recommended encryption and cloud backup practices to ensure data security, and I migrated the HTTP site to a secure HTTPS certificate-requiring site. To protect against SQL injection, I recommended implementing strong input validation prohibiting characters such as * , < , > , or /.  In this class, I also became practiced at generating, trusting, and revoking trust for certificates. 
 
-In the following code, we log in to the database with our credentials and create a data frame from all records. We remove the _id column from the data frame and create an instance of the JupyterDash class.
-```python
-db = CRUD(username, password)
+-**My work in this project demonstrated proficiency in developing a security mindset that anticipates exploits in software architecture and designs to expose potential vulnerabilities with skills in Java, software testing, software security, Spring Security, Windows, and Eclipse.** You can see an example of a dependency check maven report that I created to assess software vulnerabilities associated with third-party packages [using the National Vulnerability Database here](https://sheraadams.github.io/CS305). You can also see that **I reduced the overall number of vulnerabilities from 118 to 70** by updating dependencies to their newest versions and suppressing some low-severity vulnerabilities that would not be expected to impact the project significantly. 
 
-df = pd.DataFrame.from_records(db.read({}))
-df.drop(columns=['_id'],inplace=True)
+## ePortfolio Overview
+ In this ePortfolio, I have included three projects that I have designed and developed. To fulfill the requirements of this capstone class, I will add enhancements that that demonstrate my skills in software engineering and design, data structures and algorithms, and databases. In this portfolio, I will also use these artifacts to demonstrate my mastery of the five [course outcomes](https://sheraadams.github.io/outcomes).
+ 
+- For my [Software Engineering and Design](https://sheraadams.github.io/#software-engineering-and-design) enhancement, I added Freetype and IrrKlang libraries to my OpenGL C++ project, adding sound to the scene, and rendering user-friendly instructions and x,y, and z coordinates of a target development object to the screen. Find my [Software Engineering and Design artifacts here](https://sheraadams.github.io/#software-engineering-and-design-artifacts).
 
-app = JupyterDash(__name__)
-```
+- For my [Data Structures and Algorithms](https://sheraadams.github.io/#data-structures-and-algorithms) enhancement, I increased the adaptability and maintainability of the CS250 Java slideshow application by using an ArrayList in place of conditional branching to control the slideshow view. Having an efficient data structure in place will be particularly important as the application scales. Find my [Data Structures and Algorithms artifacts here](https://sheraadams.github.io/#data-structures-and-algorithms-artifacts).
 
-The app.layout section creates the layout of the app using HTML code. In our layout we create a dash table to display the database columns and rows.
-```python
-    # Format the data table 
-    dash_table.DataTable(
-        id='datatable-id',
-        columns=[{"name": i, "id": i, "deletable": False, "selectable": True} for i in df.columns],
-        style_data_conditional=[{'if': {'column_editable': False},'backgroundColor': 'white','color': 'rgb(30, 30, 30)'}],
-        style_header_conditional=[{'if': {'column_editable': False},'backgroundColor': 'white','color': 'rgb(30, 30, 30)'}],
-        data=df.to_dict('records'),
-        editable=False,
-        filter_action="native",
-        sort_action="native",
-        sort_mode="multi",
-        column_selectable=False,
-        row_selectable="single",
-        row_deletable=False,
-        selected_columns=[],
-        selected_rows=[0],
-        derived_virtual_selected_rows=[],
-        page_action="native",
-        page_current=0,
-        page_size=10,
-       # derived_virtual_data=df.to_dict('records'),
-        style_header={'border': '1px solid pink'},
-    ),
-```
+- For my [Database category enhancement](https://sheraadams.github.io/#databases), I set up the database and dashboard locally, and I added two additional charts that describe age upon outcome and outcome type attributes from the Grazioso dataset. I enhanced the security of the project by removing all hard-coded passwords and adding password handling. **Finally, I updated libraries to the newest supported versions.** I also implemented a field mask to hide confidential fields such as client names from the dashboard data table. Find my [Database artifacts here](https://sheraadams.github.io/#databases-artifacts).
 
-With the **update dashboard()** function we can update the dashboard according to the selected filter type. We have an input callback that takes the filter filterValue as a parameter and we have output callbacks for the data and columns of the data table.
-```python
-@app.callback(Output('datatable-id', 'data'),
-              Output('datatable-id', 'columns'),
-              [Input('filter-type', 'value')])
-def update_dashboard(filterValue, **kwargs):
-    # Filter data based on the selected type 
-    if filterValue == 'mountain':
-        # save the df as result of the read function call passing the mountain query as a parameter
-        df = pd.DataFrame.from_records(db.read(mountain_rescue_query))
-    elif filterValue == 'water':
-        # save the df as result of the read function call passing the water query as a parameter
-        df = pd.DataFrame.from_records(db.read(water_rescue_query))
-    elif filterValue == 'disaster':
-        # save the df as result of the read function call passing the disaster query as a parameter
-        df = pd.DataFrame.from_records(db.read(disaster_query))
-    else:
-        # return all data if reset (default datatable/ read all data)
-        df = pd.DataFrame.from_records(db.read({'animal_type': {'$in': ["Dog", "Cat", "Bird", "Other"]}}))
-    
-    # delete the _id collumn
-    df.drop(columns=['_id'],inplace=True)   
-    # define the column properties
-    columns = [{"name": i, "id": i, "deletable": False, "selectable": True} for i in df.columns]
-    # create a dictionary from the data frame
-    data = df.to_dict('records')
-    #return a tuple of data, columns
-    return (data, columns)
-```
+## Code Review
 
+A code review is an organized analysis of one’s code in the context of the software development community for teaching, testing, and analyzing the code base. Code reviews are a static test that we can perform for our code, and they are a way that we can test the quality of our code while ensuring completeness and adherence to the client’s requirements. Code reviews are an important practice in computer science as they allow us to think critically about our work while allowing outside parties to contribute to and examine our code. Promoting collaboration, code reviews allow us to improve our code by inviting others to share their feedback about our work. 
 
-With the **update_graphs()** function we create a bubble scatter graph that responds to the selected filter and provides a visualization of the number of animals by breed in a given filter. We accomplish this with input callbacks passing filterValue as a parameter and output callbacks for the graph children.
+I conducted an informal code review for this course, reviewing projects from three prior courses to analyze the strengths and weaknesses in my code, and proposing enhancements covering software engineering, data structures and algorithms, and databases categories. My enhancements were selected to highlight my proficiency in [all five course outcomes](https://sheraadams.github.io/outcomes). Here is the code review on YouTube:
 
-```python 
-@app.callback(
-    Output('graph-id', "children"),
-    [Input('datatable-id', "derived_virtual_data"),
-     Input('filter-type', 'value')]
-)
-def update_graphs(viewData, filterValue, **kwargs):
-    # Create a data frame from the data
-    dff = pd.DataFrame(viewData)
+<p align="center">
+  <a href="https://youtu.be/RqVvmqJ1A3s">
+    <img src="https://sheraadams.github.io/assets/img/preview.jpg" alt="CS499 Code Review">
+  </a>
+</p>
 
-    # Create a new DataFrame with breed counts, resetting the index for easier access
-    dff = dff['breed'].value_counts().reset_index()
-    # define the column names as breed and count
-    dff.columns = ['Breed', 'Count']
+## Software Engineering and Design
 
-    # Combine the breeds with less than 70 members to make the chart more readable
-    if filterValue == 'reset':
-        dff.loc[dff['Count'] < 70, 'Breed'] = 'Other Breeds'
+For my software engineering enhancement, I enhanced the OpenGL final project created for CS330 Computational Graphics in the Winter Term of 2023. The artifacts for this project include the zipped folder with the C++ code, Visual Studio solution, and the file dependencies and libraries required to run the project on the Windows operating system in Visual Studio 2022. I selected this artifact because it showcases my skill in crafting engaging user experiences and my drive to challenge myself to learn new things. In CS330, added custom key controls to enable the user to interact with the scene and I added key controls to scroll, move, and scale a target object with a key press on the x, y, and z axes. I added a vector of textures that could be accessed through an index variable and scrolled on an object with a key press. *I enhanced my OpenGL project by adding the IrrKlang 3D sound library to add music to the scene. I also implemented the FreeType library, rendering text over the scene that displays the key control options and the real-time x, y, and z coordinates of the target object as it is manipulated by the user.* Through my enhancements, I met course outcomes 1, 2, and 4: 
 
-    # Create a bubble chart
-    bubble_fig = px.scatter(
-        dff,
-        x='Breed',  # X-axis variable
-        y='Count',  # Y-axis variable
-        size='Count',  # Size of the bubbles
-        color='Breed',  # Color of the bubbles
-        title='Preferred Animals by Breed',  # title the chart
-        template='plotly_white'  # set the template style
-    )
+**Course Outcome 1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
 
-    # Return the graph
-    return [dcc.Graph(
-        figure=bubble_fig,
-        # set the size of the graph
-        style={'width': '900px', 'height': '500px'}
-    )]
-```
+For my enhancement, I rendered text to the screen to indicate the real-time coordinates and sizes of the target object as it is manipulated by the user with a key press on the x, y, and z axes. My development control enhancement reduces workflows and increases precision and accuracy in the design process. My enhancement also enables the developer to create more realistic replications that are accurate in scale and design and to simulate the implications of physics more accurately and efficiently. 
 
-With the **update_map()** function we create a geolocation chart that responds to the selection by showing a marker at the animal’s longitude and latitude coordinates. We accomplish this with callbacks in a similar way as we did with update_graphs.
+- **My enhancement met course outcome 1, employing strategies for building collaborative environments that enable diverse audiences to support organizational decision-making through skills in C++, graphics programming, OpenGL, and software engineering.** 
 
-```python
-@app.callback(
-    Output('map-id', "children"),
-    [Input('datatable-id', "derived_virtual_data"),
-     Input('datatable-id', "derived_virtual_selected_rows")])
-def update_map(viewData, index, **kwargs):  
-    # handle the case that the viewData is empty
-    if viewData is None:
-        row = 0
-    # handle the case that the index is empty
-    elif index is None:
-        row = 0
-    # set the index default to the first row
-    else: 
-        row = index[0]  
-    # define the data fram
-    dff = pd.DataFrame.from_dict(viewData)
-    # return the map with a marker at the index's longitude/ longitude coordinates
-    return [     # Austin TX is at [30.75,-97.48]
-        dl.Map(style={'width': '900px', 'height': '500px'}, center=[30.75,-97.48], zoom=10, children=[
-            dl.TileLayer(id="base-layer-id"),
-            # Marker with tool tip and popup
-            # Column 13 and 14 define the grid-coordinates for the map
-            # Column 4 defines the breed for the animal
-            # Column 9 defines the name of the animal
-            dl.Marker(position=[dff.iloc[row,13],dff.iloc[row,14]], children=[
-                dl.Tooltip(dff.iloc[row,4]),
-                dl.Popup([
-                    html.H1("Animal Name"),  
-                    html.P(dff.iloc[row,9])
-                ])
-            ])
-        ])
-    ]
-```
+**Course Outcome 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
 
-When we run the Jupyter Notebook file, we can see the interactive data table, geolocation map, and chart display and interactively respond to the user selection. We can filter the selection with the radio buttons labeled “Water Rescue”, “Mountain Rescue”, “Disaster Rescue”, or “Reset”.
+I met outcome 2, delivering professional quality communications, by adding sound and text to the OpenGL application. Rendering the instructions and the x, y, and z coordinates and sizes allows the user to engage with the interactivity controls in a practical way and increases the user’s confidence and understanding of the application. Adding sound and sound controls for the user also increased the scene interactivity while placing the user in control of the audio experience. 
+
+- **Utilizing skills in OpenGL, C++, sound engineering, and Visual Studio, I delivered professional quality communications appropriately adapted to specific audiences and contexts.**  
+
+**Course Outcome 4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database).**
+
+I met outcome 4 as I demonstrated skills using well-founded tools and innovative techniques for the purpose of implementing computer solutions that accomplish industry-specific goals by adding sound and text to my scene to engage the user and increasing the interactivity. I used the Irrklang sound library to add music to the application, and I added the FreeType library to add text over the scene. Adding sound, text, and development controls transforms our simpler OpenGL project to a more interactive application that engages the user through text, and sound mediums in addition to the scene itself. 
+
+- **In my enhancement, I demonstrated an ability to use well-founded and innovative techniques, skills, and tools to implement computer solutions that deliver value and accomplish industry-specific goals using skills in OpenGL, C++, game development, and Microsoft Visual Studio.**
+
+### Challenges and Lessons Learned
+As I worked on my project, I learned to become more familiar with the FreeType and IrrKlang libraries. I learned to work with functions like IrrKlang’s setSoundVolume() and play2D() and I learned to use IrrKlang’s drop() function to clean up after the render loop. Though I originally did not plan to manipulate sound with a key press, in the end, I decided this would be a necessary feature to ensure that the end user is in control of the audio experience. I added user control (keys 1 and 2) to turn up or down the volume, and I set the volume to begin at 20% on program launch. 
+
+I did not face any significant challenges with the implementation of the libraries, but any time we introduce new libraries into our Visual Studio projects, the configuration of libraries and dependencies is often a large part of our work. In my work, I learned to be familiar with the locations of the new dependencies for the additional libraries as well as their nuances. My largest challenge was limiting the overall file size while considering compatibility and accessibility for the end user. In my work, I found that some of the greatest reductions in file size could be accomplished by simply converting PNG images to JPEG. I also found that testing on multiple machines and multiple IDEs helped me to improve the quality of my code, assess constraints, and optimize my Visual Studio configurations with the user in mind.
 
 <div align="center">
-  <p><strong>The final dashboard:</strong></p>
-  <img src="https://github.com/sheraadams/CS340/assets/110789514/c4454846-462e-4580-8fd5-57159f70c1d0" width="800" alt="The final dashboard: d1">
+  <p><strong>Software Engineering and Design Enhancement</strong></p>
+  <img src="https://sheraadams.github.io/assets/img/SWE_en.jpeg" width="800" alt="Software Engineering and Design Enhancement">
 </div>
+
+### Software Engineering and Design Artifacts
+The artifacts for this project include the zipped folder with the C++ code, Visual Studio solution, and the file dependencies and libraries required to run the project on the Windows operating system in Microsoft Visual Studio 2022.
+
+  - You can find the enhanced app [here](https://github.com/sheraadams/example/blob/main/SWE_Enhanced.zip) here.
+
+## Data Structures and Algorithms
+
+For my data structures and algorithms category, I enhanced the Java Swing slideshow that I developed as a part of CS250 Software Development Lifecycle. The artifact for this project includes the Java Eclipse project and code and the executable JAR file in the zipped folder. The slideshow is a desktop application that uses Swing and JFrame to create a GUI window where JFrame serves as a container for the application window. The program utilizes HTML for styling the text and formatting images in the panels. This program uses the Model-View-Controller (MVC) design pattern where the images and text are the model, the Java code is the application logic, and the buttons allow the client to interact with the software. For CS250, the Java slideshow application was meant to be a starting point and an early iteration of the larger vacation booking system project. *I enhanced the slideshow wireframe application by increasing the adaptability, maintainability, and resource efficiency of the code by using an efficient data structure to replace the if-else conditional branching currently controlling the view of the slideshow.* Through this enhancement, I demonstrated proficiency in course outcome 3:
+
+**Course Outcome 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms).**
+
+Before enhancement, the slideshow operated on a conditional statement that defined the contents of 10 JLabels that were created for each user based on the value of the index variable.  I improved the resource and readability of the application by changing this hard-to-maintain conditional statement to an appropriate data structure and ensured that with each slide, only two JLabels were created and subsequently clearing and adding the contents to the panes according to the value the index. My enhancement improved the adaptability, reusability, and scalability of this application by conforming to software engineering best practices. 
+
+Though our wireframe slideshow application data started out small and our improved data structure may not noticeably increase the run-time efficiency of the application (the current run-time cost to create the GUI contents for one user is 35 and it is 11n with the ArrayList – see below for the cost analysis), as the application scales and the logic is adopted by the larger application, several issues would arise. If the number of users accessing their top five would scale largely, the dependence on a solid data structure would become increasingly impactful in terms of memory, performance, and code maintenance. With the ArrayList, the average runtime space complexity is still linear and it is comparable to the conditional branching in place (before enhancement, the run time space complexity was 0(1)) and after, it is expected to be O(1) to O(N) with the added benefit of better resource management and better maintainability). Further, as we are most concerned about access, the ArrayList runtime space complexity for access would be O(1), which is the same. 
+
+Overall, Java’s ArrayList is good for fast random access to elements by index, it has linear average run-time space complexity, and it preserves the order of elements. In terms of access, when sorting and insertion are not a primary need, the ArrayList structure performs very well. My enhancement increased the code maintainability and resource efficiency of the application by implementing an appropriate data structure. 
+
+- **In my work, I met outcome 3, evaluating solutions that solve a given problem using algorithmic principles and computer science practices using computer science, documentation, algorithm analysis, Java programming, and HTML programming.**
 
 <div align="center">
-  <p><strong>Mountain Filter radio button is selected:</strong></p>
-  <img src="https://github.com/sheraadams/CS340/assets/110789514/e2ca839f-715c-47f6-9e72-794893173577" width="800" alt="Mountain Filter radio button is selected: d3">
+  <p><strong>Algorithm Analysis</strong></p>
+  <img src="https://sheraadams.github.io/assets/img/analysis.jpg" width="800" alt="Algorithm Analysis">
 </div>
+
+### Challenges and Lessons Learned
+
+In the completion of this enhancement, I learned to be more holistic in my approach when considering an appropriate data structure for this application. I learned to consider the context, the intended use, resources available, and the expected scale of the application first when considering a data structure as run time efficiency alone is not usually enough information. I initially considered the ArrayList, the Binary Search Tree, and the Linked List for this application as each of these structures offer the benefits of order preservation and fast access. Ultimately, I decided that the Linked List and Binary Search Tree bring additional overhead storage requirements that may not be reasonable for daily insertions and sorting with a primary use of access alone. Quantifying algorithmic differences (especially when they are relatively small) can be challenging at times, however, I found an algorithmic analysis exercise as shown below to be a helpful tool for comparing the space complexity before and after enhancement. 
+
+In the end, I learned that it is always important to consider the needs of the end-user and the context of the application carefully first before choosing an appropriate structure. Additionally, it is always crucial to weigh the trade-offs associated with a data structure. Doing so can prevent unnecessary revision, cost, and maintenance.
 
 <div align="center">
-  <p><strong>Geolocation ping is shown:</strong></p>
-  <img src="https://github.com/sheraadams/CS340/assets/110789514/701b4ddb-b33a-457c-b64f-138e813f5bf8" width="800" alt="Geolocation ping is shown: d4">
+  <p><strong>Java Slide Show</strong></p>
+  <img src="https://sheraadams.github.io/assets/img/slideshow.jpeg" width="800" alt="Java Slide Show">
 </div>
 
-## Software Engineering and Design Enhancements
+### Data Structures and Algorithms Artifacts
+The artifact for this project includes a zipped folder with the .jar executable and the Eclipse Java project.
 
-I plan to implement two more visualization graphs that describe additional data characteristics. The existing scatter chart describes the distribution of the members of the breed column. 
+  - You can find the [original artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/DSA_Example.zip) here.  
+  - You can find the [enhanced artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/DSA_Enhanced.zip) here.  
 
-The new bar chart should describe the distribution of the members of the outcome type column. The new pie chart should describe the distribution of the members of the age column. As the data currently is defined in terms of weeks, I plan to create six or more age categories to group the data.
+## Databases
 
-# Data Structures and Algorithms
+For my database enhancement, I enhanced the PyMongo Dashboard created for CS340 Client Server Development in the Fall of 2023. The artifacts for this project include the zipped folder that includes the Python, Jupyter Notebook, and PNG Grazioso logo. The client dashboard was developed for Grazioso Salvare to help identify potential animals for training and it employs the Model-View-Controller (MVC) design pattern.  The architecture includes a MongoDB NoSQL database and Python code for interaction with the database through CRUD (Create, Read, Update, Delete) functions. The interactive dashboard relies on Dash, dash-leaflet, numpy, and matplotlib libraries. The RESTful protocol provides a scalable, adaptable, and easy-to-maintain structure. The application previously included a data table that displayed the contents of the database, a scatter chart showing the distribution of breeds, and a geolocation chart showing the latitude and longitude of the selection. *For my enhancement, I added two additional graphs to describe other features of the dataset, a name mask to hide confidential names from the client’s view, resource deallocation, password handling, and I updated all libraries to their newest supported versions.* I met course outcomes 1, 2, 4, and 5 with my enhancements:
 
-## About the Project 
+**Course Outcome 1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
 
-This Java program is a slideshow console application that uses Swing and JFrame to create a GUI. JFrame serves as a container for the application window. The program utilizes HTML for styling the text and embedding the images in the panels. 
-There are three main panels: a slide pane, a text pane, and a button pane. This program uses the Model-View-Controller (MVC) design pattern where the images and text are the model, the Java code is the application logic and the buttons allow the client to interact with the software.
+In my enhancement, I added pie and bar charts to show age upon outcome and outcome type to give the user a more holistic understanding of the animal shelter data. Providing the user with multifaceted insights facilitates informed decisions in computer science and business using data. The charts that I included, like the previously included scatter chart, are interactive and they dynamically respond to the filter selection. My enhancement facilitates a collaborative environment in which users from diverse backgrounds and technical experience can explore and understand data effectively through visualizations regardless of their experience with NoSQL database itself that informs the graphs. 
+
+- **My enhancement demonstrates my proficiency in enabling diverse audiences to support informed organizational decision-making through software development skills in Python, databases, NoSQL, MongoDB, and data analysis.**
+
+**Course Outcome 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
+
+For my enhancement, I also added a field mask to hide confidential client names. In the case of Grazioso Salvare’s client dashboard, we know that many of the outcome types include pets that have been adopted, transferred, returned to their owner, or deceased among other outcomes. As some of the pets belong to private owners who may not wish for their pet’s private name to be publicly displayed, I implemented a field mask to hide the confidential names of all pets from the clients' view as the client does not need to know the pet’s identifying information. Adding this change to the dashboard can allow Grazioso Salvare to adhere to industry regulations that require the confidentiality of private client data. 
+
+- **My enhancement demonstrates mastery of developing professional communications that are technically sound and adapted to specific audiences and contexts through software development skills in Python programming, databases, and software security.**
+
+**Course Outcome 4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database).**
+
+Using well-founded tools and practices to align with software engineering best practices, I added exception handling to inform the user if the password is incorrect or empty. I accomplished this by adding try and except statements to the CRUD.py init() function. Doing this allows more graceful termination and notifies the user if the password is incorrect rather than providing the user with errors that result from failed attempts to load the data frame. My solution accomplishes the specific goal of informing the user if credentials are incorrect and preventing the unnecessary execution of code in the case of failed login attempts. You can see the [flowchart for this enhancement here](https://sheraadams.github.io/flowchart).
+
+- **My enhancement demonstrates my ability use well-founded and innovative techniques in computing to implement solutions that deliver value and accomplish industry-specific goals using skills in software security, software engineering, Python programming, and databases.**
+
+**Course Outcome 5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
+
+**Aligning with software security best practices, I removed the deprecated imports from this application and updated libraries to the newest versions.** According to the Plotly GitHub repository, for versions of Dash greater than or equal to 2.11, Jupyter support is now built-in, meaning that the previously supported Jupyter_Dash library is now obsolete (Plotly, n.d.). Deprecated imports pose a security risk as they do not benefit from bug fixes and security updates as newer and supported methods do. To address this issue, I updated all instances of the JupyterDash methods to Dash methods. Additionally, I removed all hard-coded passwords and instead set environment variables in the terminal session in Visual Studio Code. Anticipating adversarial exploits in software, my enhancement mitigates some of the risks associated with software development and ensures the security of data using software engineering best practices. 
+
+- **My enhancement demonstrates a security mindset that anticipates adversarial exploits in software architecture, mitigates design flaws, and ensures privacy and security of data through skills in software security, software engineering, Python programming, Visual Studio Code, and Jupyter Notebook.**
+
+### Challenges and Lessons Learned
+
+In the completion of these enhancements, I learned several things. First, I learned to be comfortable setting and retrieving environment variables within Jupyter Notebook files in Visual Studio Code. Also in this process, I faced a minor challenge when testing my local setup on both Mac OS and Windows. As I tested my enhanced dashboard application on multiple devices, I noticed that I had errors on one of the machines, and no errors on the other after updating my app instance from JupyterDash to Dash. With a little investigation, I discovered the cause of the error an outdated Dash library on the problem machine. With Dash libraries older than 2.11, the code will not successfully create the dashboard and JupyterDash would still be required. I was able to resolve the issue by updating the Dash library to the newest version on both machines to finally reproduce the dashboard locally on both machines successfully. My work in this project taught me importance of researching and verifying each of the dependencies used in our code in all circumstances. This project was a valuable experience for me, and it increased my confidence working with databases and with Python. 
 
 <div align="center">
-  <p><strong>CS 250 Slide Show</strong></p>
-  <img src="https://github.com/sheraadams/499final/assets/110789514/859574a3-24f2-4e40-b40e-17992084cae1" width="800" alt="CS 250 Slideshow d1">
+  <p><strong>Grazioso Client Server Dashboard</strong></p>
+  <img src="https://sheraadams.github.io/assets/img/DB_en.jpeg" width="800" alt="Grazioso Client Server Dashboard">
 </div>
 
-(Southern New Hampshire University, n.d.)
+### Databases Artifacts
+The artifacts for this category include the zipped folder including the Python, Jupyter Notebook files, and the Grazioso PNG logo.
 
-## Functional Requirements
+  - You can find the [original artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/Database_Example.zip) here.  
+  - You can find the [enhanced artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/Database_Enhanced.zip) here.
 
- - The application should have an ordered list of destinations from the most popular location to the fifth most popular.
- - Each destination on the list should have the following attributes shown:
-   - Destination name
-   - Destination short description (one sentence)
-   - Destination picture
-   - Destination link turn this into a markdown list
+## References
 
-## The Code Review
+Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell. (n.d.). 
+https://www.bigocheatsheet.com/
 
-The initComponent() method is used to define each of the components, set display properties like font, color, and size, and set listeners for the buttons. 
+Detlefsen, A., & Manico, J. (2015). Iron-Clad Java: Building Secure Web Applications (1st ed.). McGraw-
+Hill Education. ISBN: 978-0-07-183589-3.
 
-```java
-  private void initComponent() {
-        this.card = new CardLayout();
-        this.cardText = new CardLayout();
-        this.slidePane = new JPanel();
-        this.textPane = new JPanel();
-        this.textPane.setBackground(Color.WHITE);
-        this.textPane.setBounds(5, 470, 790, 50);
-        this.textPane.setVisible(true);
-        this.buttonPane = new JPanel();
-        this.btnPrev = new JButton();
-        this.btnNext = new JButton();
-        this.lblSlide = new JLabel();
-        this.lblTextArea = new JLabel();
-        this.setSize(800, 600);
-        this.setLocationRelativeTo((Component)null);
-        this.setTitle("Top Detox Destinations");
-        this.getContentPane().setLayout(new BorderLayout(10, 50));
-        this.setDefaultCloseOperation(3);
-        this.slidePane.setLayout(this.card);
-        this.textPane.setLayout(this.cardText);
+Google. (2023). Google UX Design Professional Certificate. Coursera. https://www.coursera.org/
+professional-certificates/conception-ux-google
 
-        for(int i = 1; i <= 5; ++i) {
-            this.lblSlide = new JLabel();
-            this.lblTextArea = new JLabel();
-            this.lblSlide.setText(this.getResizeIcon(i));
-            this.lblTextArea.setText(this.getTextDescription(i));
-            this.slidePane.add(this.lblSlide, "card" + i);
-            this.textPane.add(this.lblTextArea, "cardText" + i);
-        }
+Plotly. (n.d.). GitHub - plotly/jupyter-dash: OBSOLETE - Dash v2.11+ has Jupyter support built in! GitHub. 
+https://github.com/plotly/jupyter-dash
 
-        this.getContentPane().add(this.slidePane, "Center");
-        this.getContentPane().add(this.textPane, "South");
-        this.buttonPane.setLayout(new FlowLayout(1, 20, 10));
-        this.btnPrev.setText("Previous");
-        this.btnPrev.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                SlideShow.this.goPrevious();
-            }
-        });
-        this.buttonPane.add(this.btnPrev);
-        this.btnNext.setText("    Next    ");
-        this.btnNext.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                SlideShow.this.goNext();
-            }
-        });
-        this.buttonPane.add(this.btnNext);
-        this.getContentPane().add(this.buttonPane, "South");
-    }
-```
-We can see that this application uses a conditional statement based on the value of the index “i”. Based on the numerical value of i, the string is reassigned to corresponding string. The string itself is HTML code that formats text or formats and loads an image and lblSlide.setText() function is responsible for updating the slide.
-
-```java
-        for(int i = 1; i <= 5; ++i) {
-            this.lblSlide = new JLabel();
-            this.lblTextArea = new JLabel();
-            this.lblSlide.setText(this.getResizeIcon(i));
-            this.lblTextArea.setText(this.getTextDescription(i));
-            this.slidePane.add(this.lblSlide, "card" + i);
-            this.textPane.add(this.lblTextArea, "cardText" + i);
-        }
-//...
-    private String getResizeIcon(int i) {
-        String image = "";
-        if (i == 1) {
-            image = "<html><body><img width= '800' height='500' src='" + this.getClass().getResource("/resources/costarica.jpg") + "'</body></html>";
-        } else if (i == 2) {
-            image = "<html><body><img width= '800' height='500' src='" + this.getClass().getResource("/resources/sedona.jpg") + "'</body></html>";
-        } else if (i == 3) {
-            image = "<html><body><img width= '800' height='500' src='" + this.getClass().getResource("/resources/nepal.jpg") + "'</body></html>";
-        } else if (i == 4) {
-            image = "<html><body><img width= '800' height='500' src='" + this.getClass().getResource("/resources/egypt.jpg") + "'</body></html>";
-        } else if (i == 5) {
-            image = "<html><body><img width= '800' height='500' src='" + this.getClass().getResource("/resources/grandcanyon.jpg") + "'</body></html>";
-        }
-
-        return image;
-    }
-
-    private String getTextDescription(int i) {
-        String text = "";
-        if (i == 1) {
-            text = "<html><body><font size='5'>1. Costa Rica</font> <br>Release toxins and find new inspiration at the beautiful Ayurveda Yoga Wellness Retreats. </body></html>";
-        } else if (i == 2) {
-            text = "<html><body><font size='5'>2. Sedona</font> <br>Visit some of the most famous detox centers in the world and experience mind-body healing in the beautiful Sedona, Arizona.</body></html>";
-        } else if (i == 3) {
-            text = "<html><body><font size='5'>3. Nepal</font> <br>Rejuvenate your mind and body and realign yourself with yoga and meditation in the world class retreats of Nepal.</body></html>";
-        } else if (i == 4) {
-            text = "<html><body><font size='5'>4. Egypt</font> <br>Immerse yourself in the history of ancient civilizations as you realign body, mind, and spirit in breathtaking landscapes.</body></html>";
-        } else if (i == 5) {
-            text = "<html><body><font size='5'>5. Grand Canyon</font> <br>Relax in nature and find wellness and adventure in the breathtaking views of the Grand Canyon.</body></html>";
-        }
-
-        return text;
-    }
-```
-
-We can increase the efficiency of our application using a data structure in place of conditional branching. When considering a data structure for our application we are most concerned about access. Insertions into the user’s top 5 destination list should is not expected to be a frequent task. Once per-day insertions and rearranging would likely be sufficient.
-
-## Data Structures Compared
-Hash tables and binary search trees have higher overhead costs and require storage space for the structure itself. 
-
-Hash tables (or Java HashMap) do not preserve order. Hash tables are best for small data sets in which fast searches are a priority. 
-
-The binary search tree is for cases when data sets are likely to grow, and fast searches are important. Binary search trees require maintenance to keep them balanced.
-
-## Reasoning for Arraylist structure
-
-The Arraylist is good for fast random access to elements by index, and it preserves the order of elements. In terms of access, the array structure performs very well and has the average run-time space complexity of O(1) to O(N) (O(N) being the worst case in which N is the number of elements in the array), which is linear.
-
-Vectors and arraylist offer advantages in terms of pure runtime and space complexity when frequent insertions and sorting are not needed. 
-
-If dynamic insertions and deletions are anticipated at runtime, the resulting run-time space complexity would be O(N). For our specific use case of managing a top-five favorites list where sorting is unnecessary, the space complexity remains O(N) due to the straightforward nature of the list. If sorting were required, the expected run-time space complexity could range from O(N) to O(N log N) if using mergesort. 
-
-<div align="center">
-  <p><strong>Big O Cheatsheet (Eric Drowell, n.d.)</strong></p>
-  <img src="https://github.com/sheraadams/499final/assets/110789514/6a7a1374-6ebb-465d-b10c-ddb5c3fdb6a8" width="800" alt="Big O Cheatsheet">
-</div>
-
-Arrays have a worst-case run-time space complexity O(N) where N is the number of elements in the array. As we can see here, O(N) is generally fair to good run-time space complexity. Additionally, the cost is linear.
-
-<div align="center">
-  <p><strong>Big O Cheatsheet (Eric Drowell, n.d.)</strong></p>
-  <img src="https://github.com/sheraadams/499final/assets/110789514/e165d6a6-3c6f-40a1-90cf-f86ca1b7b015" width="800" alt="Big O Cheatsheet">
-</div>
-
-## Data Structures Enhancements
-
-I plan to increase the efficiency of our application by implementing an appropriate data structure to replace the conditional branching that controls the slideshow view. Also, I plan to comment the code to make it more readable, reusable, and adaptable. 
-
-# Databases
-
-For my database enhancement, I plan to recreate the project locally on both Mac and Windows. Additionally, I plan to apply a field mask to the name field to hide confidential client names. 
-
-- **Windows:** To set up the database and dashboard application locally we will need to install the [Mongo Shell](https://www.mongodb.com/try/download/shell) and [Mongo Compass](https://www.mongodb.com/try/download/compass).
-
-- **Mac:** To set up the database and dashboard application locally we will need to install [Mongo Compass](https://www.mongodb.com/try/download/compass) and
- [Homebrew](https://brew.sh). We will also install MongoDB community using the terminal 
-
-  ```bash
-  brew tap mongodb/brew
-  brew install mongodb-community
-  brew services start mongodb-community
-  ```
-  We can stop the service using
-  ```bash
-  brew services stop mongodb-community
-  ```
-
-## Instructions
-This guide will walk you through importing AAC data into MongoDB, creating a user, and connecting to the database using the Linux shell. To begin working with this software on Windows OS, first follow these instructions to install the bash shell. Otherwise, when working with the environment provided on the Apporto virtual lab, proceed with the following: 
-
-### 1. Import the AAC data
-
-To import AAC data into MongoDB, you can use the `mongoimport` command. Make sure to replace `${MONGO_USER}`, `${MONGO_PASS}`, `${MONGO_PORT}`, and `${MONGO_HOST}` with your actual MongoDB credentials.
-
-```bash
-# in the linux shell run the following command to import the aac_shelter_outcomes excel document
-mongoimport --username="${MONGO_USER}" --password="${MONGO_PASS}" --port=${MONGO_PORT} --host=${MONGO_HOST} --type=csv --headerline --db AAC --collection animals --authenticationDatabase admin --drop /usr/local/datasets/aac_shelter_outcomes.csv
-```
-
-### 2. Create the user
-
-```bash
-use admin;
-db.createUser({
-  user: "username",
-  pwd: "password",
-  roles: [
-    { role: "readWrite", db: "AAC" }
-  ]
-});
-```
-
-### 3. Set the environment variables
-
-```bash
-# set the environment
-# determine the port number for python connection settings 
-printenv | grep -i mongo
-# login the user
-MONGO_USER=username
-MONGO_PASS=password
-
-```
-
-### 4. Verify connection
-```mongosh
-# open the mongo shell
-mongosh
-// verify access to the database
-show dbs
-use AAC
-// verify the database has the animals collection
-show collections
-// verify the collection has the csv document imported successfully 
-db.animals.findOne()
-// demonstrate connection to the database using the logged in user
-db.runCommand({connectionStatus:1})
-```
-
-### 5. Add indexes to our database 
-To increase data retrieval speed and our database's overall efficiency, we will add indexes for searches that we expect will be frequently used. We will add indexes for the breed and outcome type. 
-
-```mongosh
-db.animals.createIndex({ breed: 1 })
-db.animals.createIndex({ breed: 1, outcome_type: 1 })
-// verify the successful creation with simple queries: 
-db.animals.find({ breed: "beagle" }).explain("executionStats")
-db.animals.find({ breed: "beagle", outcome_type: "Transfer" }).explain("executionStats")
-```
-
-### 6. Install packages
-
-Bash:
-```bash
-pip install dash==2.8.1
-pip install dash-leaflet==0.1.9
-pip install pandas==1.4.2
-pip install plotly
-pip install jupyter-dash
-pip install numpy
-pip install matplotlib
-pip install pymongo
-```
-
-### 7. Run the Jupyter Notebook file
-
-You can easily run the Jupyter Notebook file in [Visual Studio Code](https://code.visualstudio.com/download) using the latest Python language extension along with the latest Jupyter Notebook extension. 
-
-## Database Enhancements
-
-For my database category enhancement, I chose to reproduce the database and dashboard locally both on Windows OS and Mac OS. Additionally, I plan to mask the name field in the case that the client names should be confidential. 
-
-Check out my [references](https://github.com/sheraadams/499final/blob/main/references.md) here.
+Check out my [artifact multimedia references](https://sheraadams.github.io/references) here.
 
 <div style="text-align: center;">
   <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sheraadams" target="_blank">Shera Adams</a>.</strong></p>
