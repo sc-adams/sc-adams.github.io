@@ -1,29 +1,29 @@
 ## Table of Contents 
 <p align="center">
   <h2 style="font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
-        <a href="https://sheraadams.github.io">ePortfolio</a><br>
-      <a href="https://sheraadams.github.io/#professional-assessment">Professional Assessment</a><br>
-      <a href="https://sheraadams.github.io/#code-review">Code Review</a><br>
-      <a href="https://sheraadams.github.io/#software-engineering-and-design">Software Engineering and Design</a><br>
-      <a href="https://sheraadams.github.io/#data-structures-and-algorithms">Data Structures and Algorithms</a><br>
-      <a href="https://sheraadams.github.io/#databases">Databases</a><br>
+        <a href="https://sc-adams.github.io">ePortfolio</a><br>
+      <a href="https://sc-adams.github.io/#professional-assessment">Professional Assessment</a><br>
+      <a href="https://sc-adams.github.io/#code-review">Code Review</a><br>
+      <a href="https://sc-adams.github.io/#software-engineering-and-design">Software Engineering and Design</a><br>
+      <a href="https://sc-adams.github.io/#data-structures-and-algorithms">Data Structures and Algorithms</a><br>
+      <a href="https://sc-adams.github.io/#databases">Databases</a><br>
   </h2>
 </p>
 
 ## Professional Assessment
 Welcome to my CS499 Capstone ePortfolio. On this page, I will showcase some of the work that I have completed as4 a computer science student at Southern New Hampshire University. Completing my coursework and developing this ePortfolio has helped to showcase my strengths and shape my professional goals along the way and I am proud of how much I have learned in this time. My degree has helped me to develop skills in collaborating in a team environment, communicating with stakeholders, in data structures and algorithms, software engineering and database, and software security, satisfying the five course outcomes for this capstone course through my work in courses like Data Structures and Algorithms, Operating Platforms, Software Security, System Analysis and Design, and Mobile Programming and Architecture, among other courses. In this portfolio, I will demonstrate my proficiency in the five computer science program outcomes using my experience in the program overall and then I will provide three projects that cover these outcomes in depth. 
 
-In my studies at SNHU, I gained proficiency in the [five computer science program outcomes](https://sheraadams.github.io/outcomes) as follows:
+In my studies at SNHU, I gained proficiency in the [five computer science program outcomes](https://sc-adams.github.io/outcomes) as follows:
 
 **Course Outcome 1**	Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.
 
 I have strengthened my skills in collaborating in a team environment throughout my studies at SNHU. In CS 255, System Analysis and Design, I shared a variety of UML diagrams in my discussions when communicating the functional requirements of a driver’s education and driving lesson booking site project with my classmates. To model the system most accurately in my documentation, I utilized a combination of process models, UML sequence diagrams, activity diagrams, use case diagrams, and object model diagrams.  Utilizing models suited for both technical and non-technical audiences, I provided a comprehensive view of how the structural and behavioral aspects should work from multiple perspectives to give the most holistic picture possible for the system. For each diagram, I created accessible PDFs in LucidChart to ensure greater audience inclusion. 
 
-- **My work in Systems Analysis and Design demonstrated my proficiency in supporting collaborative environments that enable diverse audiences to support decision making with skills in agile methodologies, documentation, and systems modeling.** You can see some of the [systems models that I developed here](https://github.com/sheraadams/Systems-Development-Models/tree/main) and in these [UML use case and activity diagrams](https://sheraadams.github.io/CS255). 
+- **My work in Systems Analysis and Design demonstrated my proficiency in supporting collaborative environments that enable diverse audiences to support decision making with skills in agile methodologies, documentation, and systems modeling.** You can see some of the [systems models that I developed here](https://github.com/sc-adams/Systems-Development-Models/tree/main) and in these [UML use case and activity diagrams](https://sc-adams.github.io/CS255). 
 
 **Course Outcome 2**	Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
 
-Throughout my studies at SNHU, I have gained skills in communicating with stakeholders. CS360, Mobile Architecture and Programming, provided practical opportunities for me to work in an agile-like environment on a Weight Tracking Android mobile app. I started the development process with a market research report in which I compared similar successful apps, exploring their strengths and weaknesses, and understanding the needs of the users. I followed my research with an app proposal that detailed the necessary classes for the app, the UI elements I planned to use, the features, and the functionality to be included along with a high-fidelity wireframe of my proposed app. After gaining feedback on my design, I submitted a UI-only XML deliverable that contained the full layout of the app.  After gaining approval on my user interface, I submitted my final product including the full Android Studio project. I submitted an App Launch plan and along with my app to outline the features, functionality, icon,app store description, images, and my recommended monetization plan based on research. Following agile development best practices, I delivered an app that accurately matched the client’s description, and, as a result, [the Java-based Android app](https://sheraadams.github.io/CS360) was well received. 
+Throughout my studies at SNHU, I have gained skills in communicating with stakeholders. CS360, Mobile Architecture and Programming, provided practical opportunities for me to work in an agile-like environment on a Weight Tracking Android mobile app. I started the development process with a market research report in which I compared similar successful apps, exploring their strengths and weaknesses, and understanding the needs of the users. I followed my research with an app proposal that detailed the necessary classes for the app, the UI elements I planned to use, the features, and the functionality to be included along with a high-fidelity wireframe of my proposed app. After gaining feedback on my design, I submitted a UI-only XML deliverable that contained the full layout of the app.  After gaining approval on my user interface, I submitted my final product including the full Android Studio project. I submitted an App Launch plan and along with my app to outline the features, functionality, icon,app store description, images, and my recommended monetization plan based on research. Following agile development best practices, I delivered an app that accurately matched the client’s description, and, as a result, [the Java-based Android app](https://sc-adams.github.io/CS360) was well received. 
 
 - **Using skills in mobile app development, Java, XML, UI design, communication, and agile development practices, I developed and delivered professional-quality communications that were appropriately adapted to specific audiences.**
 
@@ -33,7 +33,7 @@ Completing CS300, Data Structures and Algorithms, was a significant milestone fo
 
 In the end, I chose the Binary Search Tree for the application as it is extremely efficient and yields fast search results. Binary Search Trees are also great when growth and modification in the future are expected. Because of the specific functional requirements of the client, the Binary Search Tree was an appropriate choice, however, it requires storage for the tree itself and maintenance and it may not be the most practical solution for all applications. The Binary Search Tree example provides an example of some of the trade-offs involved in computer science that I learned to consider. Throughout my studies, I managed the inherent trade-offs associated with various design choices, considering at each new project if it would be worth the sacrifice of simplicity for a technically more efficient structure.  When considering an appropriate algorithm, there many factors to consider in this scenario including the project’s intended use, compatibility considerations, scale, cost, and resources. 
 
-- **In the completion of the Binary Search Tree course tracker application for CS300, I demonstrated skills in algorithm analysis, C++, documentation, and communication.** You can find a sample of the pseudocode for this C++ binary search tree [course tracker application here](https://sheraadams.github.io/CS300).
+- **In the completion of the Binary Search Tree course tracker application for CS300, I demonstrated skills in algorithm analysis, C++, documentation, and communication.** You can find a sample of the pseudocode for this C++ binary search tree [course tracker application here](https://sc-adams.github.io/CS300).
 
 **Course Outcome 4**	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database).
 
@@ -41,7 +41,7 @@ Throughout my studies, I strived to use well-founded and innovative techniques, 
 
 In the project, I provided practical knowledge regarding best tools for each platform, operating costs associated with each platform, server software options available, and my recommendations given each of those factors. Based on the UML class diagram discussed with the client, I developed software that met the client’s need to manage players in-game data. I utilized the Singleton design pattern to address the need for a singular game instance for each device. When my work was complete, I performed dynamic testing in Eclipse to confirm that the software met the functional requirements of the client. 
 
-- **Using skills in documentation, Java, computer science, software testing, Mac OS, Linux, Windows, and mobile devices, I successfully met the need of the client and demonstrated an ability to use well-founded techniques and tools to implement computer solutions that accomplish industry-specific goals.** You can see an example of my work in the following UML class diagram and in the [platform comparison table here](https://sheraadams.github.io/CS230).
+- **Using skills in documentation, Java, computer science, software testing, Mac OS, Linux, Windows, and mobile devices, I successfully met the need of the client and demonstrated an ability to use well-founded techniques and tools to implement computer solutions that accomplish industry-specific goals.** You can see an example of my work in the following UML class diagram and in the [platform comparison table here](https://sc-adams.github.io/CS230).
 
 **Course Outcome 5**	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
@@ -49,26 +49,26 @@ In my studies, I have strengthened my security mindset that anticipates software
 
 In CS305, I learned that using the National Vulnerability Database (NVD) as a resource to guide risk assessment when including third party libraries, ensuring secure HTTPS protocols, and implementing robust security configurations (for example: Spring Security) are some ways that we can ensure the security of our applications. To meet the needs of a financial industry consulting firm seeking to enhance the security of its web application, I implemented a robust hashing algorithm to protect sensitive client communications, I recommended encryption and cloud backup practices to ensure data security, and I migrated the HTTP site to a secure HTTPS certificate-requiring site. To protect against SQL injection, I recommended implementing strong input validation prohibiting characters such as * , < , > , or /.  In this class, I also became practiced at generating, trusting, and revoking trust for certificates. 
 
--**My work in this project demonstrated proficiency in developing a security mindset that anticipates exploits in software architecture and designs to expose potential vulnerabilities with skills in Java, software testing, software security, Spring Security, Windows, and Eclipse.** You can see an example of a dependency check maven report that I created to assess software vulnerabilities associated with third-party packages [using the National Vulnerability Database here](https://sheraadams.github.io/CS305). You can also see that **I reduced the overall number of vulnerabilities from 118 to 70** by updating dependencies to their newest versions and suppressing some low-severity vulnerabilities that would not be expected to impact the project significantly. 
+-**My work in this project demonstrated proficiency in developing a security mindset that anticipates exploits in software architecture and designs to expose potential vulnerabilities with skills in Java, software testing, software security, Spring Security, Windows, and Eclipse.** You can see an example of a dependency check maven report that I created to assess software vulnerabilities associated with third-party packages [using the National Vulnerability Database here](https://sc-adams.github.io/CS305). You can also see that **I reduced the overall number of vulnerabilities from 118 to 70** by updating dependencies to their newest versions and suppressing some low-severity vulnerabilities that would not be expected to impact the project significantly. 
 
 ## ePortfolio Overview
- In this ePortfolio, I have included three projects that I have designed and developed. To fulfill the requirements of this capstone class, I will add enhancements that that demonstrate my skills in software engineering and design, data structures and algorithms, and databases. In this portfolio, I will also use these artifacts to demonstrate my mastery of the five [course outcomes](https://sheraadams.github.io/outcomes).
+ In this ePortfolio, I have included three projects that I have designed and developed. To fulfill the requirements of this capstone class, I will add enhancements that that demonstrate my skills in software engineering and design, data structures and algorithms, and databases. In this portfolio, I will also use these artifacts to demonstrate my mastery of the five [course outcomes](https://sc-adams.github.io/outcomes).
  
-- For my [Software Engineering and Design](https://sheraadams.github.io/#software-engineering-and-design) enhancement, I added Freetype and IrrKlang libraries to my OpenGL C++ project, adding sound to the scene, and rendering user-friendly instructions and x,y, and z coordinates of a target development object to the screen. Find my [Software Engineering and Design artifacts here](https://sheraadams.github.io/#software-engineering-and-design-artifacts).
+- For my [Software Engineering and Design](https://sc-adams.github.io/#software-engineering-and-design) enhancement, I added Freetype and IrrKlang libraries to my OpenGL C++ project, adding sound to the scene, and rendering user-friendly instructions and x,y, and z coordinates of a target development object to the screen. Find my [Software Engineering and Design artifacts here](https://sc-adams.github.io/#software-engineering-and-design-artifacts).
 
-- For my [Data Structures and Algorithms](https://sheraadams.github.io/#data-structures-and-algorithms) enhancement, I increased the adaptability and maintainability of the CS250 Java slideshow application by using an ArrayList in place of conditional branching to control the slideshow view. Having an efficient data structure in place will be particularly important as the application scales. Find my [Data Structures and Algorithms artifacts here](https://sheraadams.github.io/#data-structures-and-algorithms-artifacts).
+- For my [Data Structures and Algorithms](https://sc-adams.github.io/#data-structures-and-algorithms) enhancement, I increased the adaptability and maintainability of the CS250 Java slideshow application by using an ArrayList in place of conditional branching to control the slideshow view. Having an efficient data structure in place will be particularly important as the application scales. Find my [Data Structures and Algorithms artifacts here](https://sc-adams.github.io/#data-structures-and-algorithms-artifacts).
 
-- For my [Database category enhancement](https://sheraadams.github.io/#databases), I set up the database and dashboard locally, and I added two additional charts that describe age upon outcome and outcome type attributes from the Grazioso dataset. I enhanced the security of the project by removing all hard-coded passwords and adding password handling. **Finally, I updated libraries to the newest supported versions.** I also implemented a field mask to hide confidential fields such as client names from the dashboard data table. Find my [Database artifacts here](https://sheraadams.github.io/#databases-artifacts).
+- For my [Database category enhancement](https://sc-adams.github.io/#databases), I set up the database and dashboard locally, and I added two additional charts that describe age upon outcome and outcome type attributes from the Grazioso dataset. I enhanced the security of the project by removing all hard-coded passwords and adding password handling. **Finally, I updated libraries to the newest supported versions.** I also implemented a field mask to hide confidential fields such as client names from the dashboard data table. Find my [Database artifacts here](https://sc-adams.github.io/#databases-artifacts).
 
 ## Code Review
 
 A code review is an organized analysis of one’s code in the context of the software development community for teaching, testing, and analyzing the code base. Code reviews are a static test that we can perform for our code, and they are a way that we can test the quality of our code while ensuring completeness and adherence to the client’s requirements. Code reviews are an important practice in computer science as they allow us to think critically about our work while allowing outside parties to contribute to and examine our code. Promoting collaboration, code reviews allow us to improve our code by inviting others to share their feedback about our work. 
 
-I conducted an informal code review for this course, reviewing projects from three prior courses to analyze the strengths and weaknesses in my code, and proposing enhancements covering software engineering, data structures and algorithms, and databases categories. My enhancements were selected to highlight my proficiency in [all five course outcomes](https://sheraadams.github.io/outcomes). Here is the code review on YouTube:
+I conducted an informal code review for this course, reviewing projects from three prior courses to analyze the strengths and weaknesses in my code, and proposing enhancements covering software engineering, data structures and algorithms, and databases categories. My enhancements were selected to highlight my proficiency in [all five course outcomes](https://sc-adams.github.io/outcomes). Here is the code review on YouTube:
 
 <p align="center">
   <a href="https://youtu.be/RqVvmqJ1A3s">
-    <img src="https://sheraadams.github.io/assets/img/preview.jpg" alt="CS499 Code Review">
+    <img src="https://sc-adams.github.io/assets/img/preview.jpg" alt="CS499 Code Review">
   </a>
 </p>
 
@@ -101,13 +101,13 @@ I did not face any significant challenges with the implementation of the librari
 
 <div align="center">
   <p><strong>Software Engineering and Design Enhancement</strong></p>
-  <img src="https://sheraadams.github.io/assets/img/SWE_en.jpeg" width="800" alt="Software Engineering and Design Enhancement">
+  <img src="https://sc-adams.github.io/assets/img/SWE_en.jpeg" width="800" alt="Software Engineering and Design Enhancement">
 </div>
 
 ### Software Engineering and Design Artifacts
 The artifacts for this project include the zipped folder with the C++ code, Visual Studio solution, and the file dependencies and libraries required to run the project on the Windows operating system in Microsoft Visual Studio 2022.
 
-  - You can find the enhanced app [here](https://github.com/sheraadams/example/blob/main/SWE_Enhanced.zip) here.
+  - You can find the enhanced app [here](https://github.com/sc-adams/example/blob/main/SWE_Enhanced.zip) here.
 
 ## Data Structures and Algorithms
 
@@ -125,7 +125,7 @@ Overall, Java’s ArrayList is good for fast random access to elements by index,
 
 <div align="center">
   <p><strong>Algorithm Analysis</strong></p>
-  <img src="https://sheraadams.github.io/assets/img/analysis.jpg" width="800" alt="Algorithm Analysis">
+  <img src="https://sc-adams.github.io/assets/img/analysis.jpg" width="800" alt="Algorithm Analysis">
 </div>
 
 ### Challenges and Lessons Learned
@@ -136,14 +136,14 @@ In the end, I learned that it is always important to consider the needs of the e
 
 <div align="center">
   <p><strong>Java Slide Show</strong></p>
-  <img src="https://sheraadams.github.io/assets/img/slideshow.jpeg" width="800" alt="Java Slide Show">
+  <img src="https://sc-adams.github.io/assets/img/slideshow.jpeg" width="800" alt="Java Slide Show">
 </div>
 
 ### Data Structures and Algorithms Artifacts
 The artifact for this project includes a zipped folder with the .jar executable and the Eclipse Java project.
 
-  - You can find the [original artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/DSA_Example.zip) here.  
-  - You can find the [enhanced artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/DSA_Enhanced.zip) here.  
+  - You can find the [original artifact](https://github.com/sc-adams/sc-adams.github.io/blob/main/artifacts/DSA_Example.zip) here.  
+  - You can find the [enhanced artifact](https://github.com/sc-adams/sc-adams.github.io/blob/main/artifacts/DSA_Enhanced.zip) here.  
 
 ## Databases
 
@@ -163,7 +163,7 @@ For my enhancement, I also added a field mask to hide confidential client names.
 
 **Course Outcome 4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database).**
 
-Using well-founded tools and practices to align with software engineering best practices, I added exception handling to inform the user if the password is incorrect or empty. I accomplished this by adding try and except statements to the CRUD.py init() function. Doing this allows more graceful termination and notifies the user if the password is incorrect rather than providing the user with errors that result from failed attempts to load the data frame. My solution accomplishes the specific goal of informing the user if credentials are incorrect and preventing the unnecessary execution of code in the case of failed login attempts. You can see the [flowchart for this enhancement here](https://sheraadams.github.io/flowchart).
+Using well-founded tools and practices to align with software engineering best practices, I added exception handling to inform the user if the password is incorrect or empty. I accomplished this by adding try and except statements to the CRUD.py init() function. Doing this allows more graceful termination and notifies the user if the password is incorrect rather than providing the user with errors that result from failed attempts to load the data frame. My solution accomplishes the specific goal of informing the user if credentials are incorrect and preventing the unnecessary execution of code in the case of failed login attempts. You can see the [flowchart for this enhancement here](https://sc-adams.github.io/flowchart).
 
 - **My enhancement demonstrates my ability use well-founded and innovative techniques in computing to implement solutions that deliver value and accomplish industry-specific goals using skills in software security, software engineering, Python programming, and databases.**
 
@@ -179,14 +179,14 @@ In the completion of these enhancements, I learned several things. First, I lear
 
 <div align="center">
   <p><strong>Grazioso Client Server Dashboard</strong></p>
-  <img src="https://sheraadams.github.io/assets/img/DB_en.jpeg" width="800" alt="Grazioso Client Server Dashboard">
+  <img src="https://sc-adams.github.io/assets/img/DB_en.jpeg" width="800" alt="Grazioso Client Server Dashboard">
 </div>
 
 ### Databases Artifacts
 The artifacts for this category include the zipped folder including the Python, Jupyter Notebook files, and the Grazioso PNG logo.
 
-  - You can find the [original artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/Database_Example.zip) here.  
-  - You can find the [enhanced artifact](https://github.com/sheraadams/sheraadams.github.io/blob/main/artifacts/Database_Enhanced.zip) here.
+  - You can find the [original artifact](https://github.com/sc-adams/sc-adams.github.io/blob/main/artifacts/Database_Example.zip) here.  
+  - You can find the [enhanced artifact](https://github.com/sc-adams/sc-adams.github.io/blob/main/artifacts/Database_Enhanced.zip) here.
 
 ## References
 
@@ -202,9 +202,9 @@ professional-certificates/conception-ux-google
 Plotly. (n.d.). GitHub - plotly/jupyter-dash: OBSOLETE - Dash v2.11+ has Jupyter support built in! GitHub. 
 https://github.com/plotly/jupyter-dash
 
-Check out my [artifact multimedia references](https://sheraadams.github.io/references) here.
+Check out my [artifact multimedia references](https://sc-adams.github.io/references) here.
 
 <div style="text-align: center;">
-  <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sheraadams" target="_blank">Shera Adams</a>.</strong></p>
+  <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sc-adams" target="_blank">Shera Adams</a>.</strong></p>
 </div>
 
